@@ -13,6 +13,8 @@ modelb1.ub=modelb1.ub.*1e3;
 model1=modelb1;
 dmemconstraints
 dmemtransports
+find(model1.c==1)
+model1.ub(ans)=0.034;
 [model1Out, removedRxnInd, keptRxnInd] = checkDuplicateRxn(model1,'S')
 modelSW620=model1Out;
 %%
@@ -21,6 +23,8 @@ modelb2.ub=modelb2.ub.*1e3;
 model1=modelb2;
 dmemconstraints
 dmemtransports
+find(model1.c==1)
+model1.ub(ans)=0.014;
 [model1Out, removedRxnInd, keptRxnInd] = checkDuplicateRxn(model1,'S')
 modelHS255T=model1Out;
 %%
@@ -29,6 +33,8 @@ modelb3.ub=modelb3.ub.*1e3;
 model1=modelb3;
 dmemconstraints
 dmemtransports
+find(model1.c==1)
+model1.ub(ans)=0.007;
 [model1Out, removedRxnInd, keptRxnInd] = checkDuplicateRxn(model1,'S')
 modelOVKATE=model1Out;
 %%
@@ -37,6 +43,8 @@ modelb4.ub=modelb4.ub.*1e3;
 model1=modelb4;
 dmemconstraints
 dmemtransports
+find(model1.c==1)
+model1.ub(ans)=0.014;
 [model1Out, removedRxnInd, keptRxnInd] = checkDuplicateRxn(model1,'S')
 modelOELE=model1Out;
 %%
@@ -45,6 +53,8 @@ modelb5.ub=modelb5.ub.*1e3;
 model1=modelb5;
 dmemconstraints
 dmemtransports
+find(model1.c==1)
+model1.ub(ans)=0.015;
 [model1Out, removedRxnInd, keptRxnInd] = checkDuplicateRxn(model1,'S')
 modelHCC1143=model1Out;
 %%
@@ -53,6 +63,8 @@ modelb6.ub=modelb6.ub.*1e3;
 model1=modelb6;
 dmemconstraints
 dmemtransports
+find(model1.c==1)
+model1.ub(ans)=0.014;
 [model1Out, removedRxnInd, keptRxnInd] = checkDuplicateRxn(model1,'S')
 modelHMEL=model1Out;
 %%
