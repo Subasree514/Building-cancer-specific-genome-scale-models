@@ -1,7 +1,7 @@
 ### modified Recon 3D model
 'model_final.mat'
 
-### core reactions obtained through standep thresholding
+### core reactions obtained through local T2 thresholding
 'rxnTisMatccle_september.mat' - model_final reactions in each of the 1406 cell line contexts classified into core and non-core based on the Local T2 thresholding (https://github.com/LewisLabUCSD/StanDep)
 
 ### classification of reactions and assigning penalty scores
