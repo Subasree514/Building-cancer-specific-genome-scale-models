@@ -1,4 +1,5 @@
 
+model1=modelSW620 %%load any cancer model
 dmem_tr={'M02050[e] <=> M02050[c]'
          'cortsn[e] <=> cortsn[c]'
 		 %%'M02050[e] <=> M02050[c]'
@@ -15,3 +16,4 @@ for i = 1:8
 model1 = addReaction(model1,rxnNamesnew{i,1},'reactionFormula',dmem_tr{i,1},'subSystem',dmemsubsytem{1,1});
 end
 optimizeCbModel(model1)
+run dmemconstraints.m
