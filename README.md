@@ -13,6 +13,7 @@
 ### Code to reconstruct genome-scale models of cancers using swiftcore algorithm 
 'cancercode1.m' and 'cancercode2.m' to extract models using swiftcore and add suitable constraints to them. 
 
+### Code to add media constraints
 The concentration of metabolites in DMEM-high glucose media plus 10%FBS are converted to constraints for cancer and non-cancerous GSM models, present in 'dmemconstraints.m' and 'dmemtransports.m'
 
 Note: If any of the models built had zero flux through the biomass reaction, then sink reactions are added for the biomass metabolites. Refer to the file, 'biomassdemand.m' for the code.
