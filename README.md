@@ -1,4 +1,4 @@
-### Genes found in the transcriptomics data of cancer cell lines are assigned recon 3d ids to be used in genome-scale model reconstruction
+### Genes found in the transcriptomics data of cancer cell lines (Ghandi et al. Nature 2019) are assigned recon 3d ids to be used in genome-scale model reconstruction
 Codes in Expression_data_recon3d/ccle_data_recon.ipynb
 
 ### modified Recon 3D model
