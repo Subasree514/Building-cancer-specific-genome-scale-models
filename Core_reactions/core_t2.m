@@ -1,5 +1,6 @@
-% load the latest TPM data of all the cancers from CCLE database DepMap Public 22Q2
-load('ccledata2023.mat');
+% load the latest TPM data of all the cancers from CCLE database DepMap Public 22Q2, 
+M = readmatrix("../Expression_data_recon3d/cclelast2023RAW.xlsx")
+ccledata2023=M(:,3:width(M));
 load('model_final.mat') % modified Recon 3D model
 model=model_final;
 run ccle_info2023.m
