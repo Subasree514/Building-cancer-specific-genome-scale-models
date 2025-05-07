@@ -1,6 +1,6 @@
 load('model_final.mat');
 load('rxnTisMatccle_september.mat');
-run ccleinformation.m;
+run '../Core_reactions/ccle_info2023.m';
 %%
 cell_t={'ACH-000651'%sw620
 'ACH-000199'%hs255t
