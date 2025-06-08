@@ -18,7 +18,7 @@ Codes available in https://github.com/Subasree514/Building-cancer-specific-genom
 Codes available in https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Constraints <br>
 
 
--The concentration of metabolites in DMEM-high glucose media plus 10%FBS are converted to constraints for cancer and non-cancerous GSM models, present in 'dmemconstraints.m' 
+-The concentration of metabolites in DMEM-high glucose media plus 10%FBS are converted to constraints for cancer and non-cancerous GSM models, present in 'dmemconstraints.m' <br>
 -Add the transport reactions not already present in the reconstructed cancer models for taking in DMEM nutrients using 'dmemtransports.m'
 
 Note: If any of the models built had zero flux through the biomass reaction, then sink reactions are added for the biomass metabolites. Refer to the file, 'biomassdemand.m' for the code.
