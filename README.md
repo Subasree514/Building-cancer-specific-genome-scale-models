@@ -1,4 +1,5 @@
-Codes for the paper: A reactive species reactions module for integration into genome-scale metabolic models for improved insights: Application to cancer, https://doi.org/10.1016/j.ymben.2023.08.006
+Codes for the paper: A reactive species reactions module for integration into genome-scale metabolic models for improved insights: Application to cancer, https://doi.org/10.1016/j.ymben.2023.08.006. The detailed methodology is depicted in the figure below. 
+![image-url](https://github.com/Subasree514/Host-pathogen-interaction-models/blob/main/hp.png)
 
 ### Genes found in the transcriptomics data of cancer cell lines (Ghandi et al. Nature 2019) are assigned recon 3d ids to be used in genome-scale model reconstruction
 Codes in Expression_data_recon3d/ccle_genes_recon.ipynb
