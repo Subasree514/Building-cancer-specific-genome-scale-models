@@ -2,9 +2,9 @@ Codes for the paper: A reactive species reactions module for integration into ge
 ![image-url](https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/blob/main/GEMs.png)
 
 ### Step 1: Obtain core reactions in each cancer transcriptomics data through local T2 thresholding
-Codes in https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Core_reactions
-core_t2.m contains codes to get core reactions for each cancer cell line by mapping the transcriptomic data onto the modified Recon 3D model
-Local T2 thresholding (https://github.com/LewisLabUCSD/StanDep)
+Codes available in https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Core_reactions
+- core_t2.m contains codes to get core reactions for each cancer cell line by mapping the transcriptomic data onto the modified Recon 3D model
+- Local T2 thresholding (https://github.com/LewisLabUCSD/StanDep)
 ## 
 'rxnTisMatccle_september.mat' - modified Recon 3D reactions (model_final.mat) in each of the 1406 cell line contexts classified into core and non-core
 
