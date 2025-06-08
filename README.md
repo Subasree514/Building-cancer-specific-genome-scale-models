@@ -24,7 +24,7 @@ Codes available in https://github.com/Subasree514/Building-cancer-specific-genom
 Note: If any of the models built had zero flux through the biomass reaction, then sink reactions are added for the biomass metabolites. Refer to the file, 'biomassdemand.m' for the code.
 
 ## Additional codes
-### Genes found in the transcriptomics data of cancer cell lines (Ghandi et al. Nature 2019) are assigned Recon 3D ids to be used in genome-scale model reconstruction processes using Recon 3D model as template
+Genes found in the transcriptomics data of cancer cell lines (Ghandi et al. Nature 2019) are assigned Recon 3D ids to be used in genome-scale model reconstruction processes using Recon 3D model as template <br>
 Codes available in Expression_data_recon3d/ccle_genes_recon.ipynb <br>
 
 The genes from CCLE mapped to the modified Recon 3D genes and the cell line information are given in https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/blob/main/Step_1_core_reactions/ccle_info2023.m
