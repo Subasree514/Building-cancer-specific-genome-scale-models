@@ -2,14 +2,14 @@ load('model_final.mat');
 load('../Step_1_core_reactions/rxnTisMatccle_september.mat');
 run '../Step_1_core_reactions/ccle_info2023.m';
 %%
-cell_t={'ACH-000651'%sw620
-'ACH-000199'%hs255t
-'ACH-000443'%ovkate
-'ACH-000494'%oele
-'ACH-000374'%hcc1143
-'ACH-000642'%hmel
-'ACH-000681'%a549
-'ACH-000758'};%mkn74
+cell_t={'ACH-000651'% - Colorectal cell line
+'ACH-000199'%hs255t - Non-cancerous, fibroblast, colorectal cell line
+'ACH-000443'%ovkate - High-Grade Serous Ovarian Cancer
+'ACH-000494'%oele - Non-cancerous, Immortalized Ovarian Cells
+'ACH-000374'%hcc1143 - Breast Invasive Ductal Carcinoma
+'ACH-000642'%hmel - Non-cancerous, Immortalized Breast Cells
+'ACH-000681'%a549 - Non-Small Cell Lung Cancer
+'ACH-000758'};%mkn74 - Esophagogastric Adenocarcinoma
 %%
 cellids_t=contains(ccleconditions,cell_t);
 c_id_t=find(cellids_t==1);
