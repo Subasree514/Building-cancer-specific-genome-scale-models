@@ -15,7 +15,8 @@ Codes available in https://github.com/Subasree514/Building-cancer-specific-genom
 'penaltyweights.m' - code to assign weights to the  model_final reactions for executing swiftcore algorithm
 
 ### Step 3: Code to add media constraints
-Codes available in https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Constraints
+Codes available in https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Constraints <br>
+
 
 -The concentration of metabolites in DMEM-high glucose media plus 10%FBS are converted to constraints for cancer and non-cancerous GSM models, present in 'dmemconstraints.m' 
 -Add the transport reactions not already present in the reconstructed cancer models for taking in DMEM nutrients using 'dmemtransports.m'
