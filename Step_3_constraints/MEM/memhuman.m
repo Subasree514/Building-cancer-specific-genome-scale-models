@@ -38,7 +38,7 @@ model3.lb(ans)=0;
 contains(model3.rxns,'EX_');
 find(ans==1);
 model3.ub(ans)=1000;
-eagleexchanges={'EX_arg_L[e]'
+memexchanges={'EX_arg_L[e]'
 'EX_Lcystin[e]'
 'EX_his_L[e]'
 'EX_ile_L[e]'
@@ -69,7 +69,7 @@ eagleexchanges={'EX_arg_L[e]'
 'EX_pi[e]'
 'EX_glc_D[e]'
 'EX_o2[e]'};
-eagleconstraints=[0.015708028
+memconstraints=[0.015708028
 0.008067899
 0.008145976
 0.031324697
@@ -102,6 +102,6 @@ eagleconstraints=[0.015708028
 2];
 run memtransports.m
 %%
-findRxnIDs(model3,eagleexchanges);
-model3.lb(ans)=-1*eagleconstraints;
+findRxnIDs(model3,memexchanges);
+model3.lb(ans)=-1*memconstraints;
 optimizeCbModel(model3)
