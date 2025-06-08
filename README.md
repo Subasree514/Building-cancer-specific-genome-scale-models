@@ -33,3 +33,6 @@ The genes from CCLE mapped to the modified Recon 3D genes and the cell line info
 ### modified Recon 3D model
 'model_final.mat'
 
+##
+The constraints for minimal essential media uptake are given in the https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Step_3_constraints/MEM
+
