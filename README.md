@@ -21,7 +21,7 @@ Local T2 thresholding (https://github.com/LewisLabUCSD/StanDep)
 'ccleinformation.m' - Information about the model_final genes matched with gene expression information in CCLE database and the different contexts (cell lines) of CCLE database
 
 ### Step 3: Code to add media constraints
-Constraints/dmemtransports.m
+https://github.com/Subasree514/Building-cancer-specific-genome-scale-models/tree/main/Constraints
 
 Add the transport reactions not already present in the cancer models for taking in DMEM nutrients using 'dmemtransports.m'
 
